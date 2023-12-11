@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/EvanCooper9/ECTimelineView", from: "1.0.0"),
-        .package(url: "https://github.com/malcommac/SwiftDate.git", from: "5.0.0")
+        .package(url: "https://github.com/simonechiappin/SwiftDate.git", from: "master")
     ],
     targets: [
         .target(
